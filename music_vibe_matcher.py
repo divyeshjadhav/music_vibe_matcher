@@ -7,6 +7,7 @@ from datetime import datetime
 from quotes import get_random_quote
 from collections import Counter
 import pandas as pd
+import speechrecognition as sr
 from textblob import TextBlob
 import openai
 import spotipy
